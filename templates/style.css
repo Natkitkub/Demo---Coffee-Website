@@ -1,0 +1,168 @@
+/* ฟอนต์โมเดิร์น สะอาด */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* ฟอนต์เรียบหรู เหมาะกับแบรนด์แฟชั่น/สินค้า premium */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+/* ฟอนต์เรียบง่าย อ่านง่าย เหมาะกับร้านทั่วไป */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #d9d9d9;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding:40px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-zone1{
+    display: flex;
+}
+nav ul{
+   display: flex;
+   gap: 50px;  
+   align-items: center; 
+}
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 50px;
+    font-size: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    border-style:solid  1px;
+    border-width: 0.5px;
+}
+.btn-nav{
+    display: flex;
+    gap: 50px;
+}
+.search-box{
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.nav-zone2{
+    display: flex;
+    gap: 50px;
+}
+.nav-zone2 a{
+    text-decoration: none;
+    color: black;
+}
+.btn1-nav{
+    background-color: black;
+    color: white;
+}
+.btn2-nav{
+    background-color: gray;
+    color: white;
+}
+section{
+    font-family: Poppins,sans-serif;
+}
+.section1{
+    margin: 100px;
+    display: flex;
+    gap: 50px;
+}
+.text-box-section1{
+    text-align: justify;
+    margin-top: 50px;
+}
+.section1 h1{
+    font-size: 3rem;
+}
+#span1-section1{
+    color: gray;
+    margin-top: 30px;
+}
+#span2-section1{
+    color: black;
+    margin-top: 30px;
+}
+
+.section1 p{
+    margin-top: 30px;
+}
+
+.section2{
+    margin: 100px;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.section2 h1{
+    margin-top: 10px;
+}
+.cardbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box1, .box2, .box3 {
+    
+    text-align: justify;
+    width: 400px;
+}
+.section3{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-img{
+    display: flex;
+    
+}
+
+footer{
+    margin-bottom: 0;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+}
+.footer-text-fixed{
+    display: flex;
+    gap: 400px;
+}
